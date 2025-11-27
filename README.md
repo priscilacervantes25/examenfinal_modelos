@@ -100,12 +100,24 @@ Con LSTM se hace el escalamiento en los rangos [-1,1], se divide el dataset en t
 
 ![Gráfica pronósticos futuros de ambas](img/PRON.jpg)
 
+| Fecha       | Predicción LSTM | Predicción SARIMA |
+|------------|------------------|--------------------|
+| 2025-12-01 | 38.429103        | 37.275863          |
+| 2026-01-01 | 39.993767        | 43.175501          |
+| 2026-02-01 | 42.231973        | 44.388030          |
+| 2026-03-01 | 44.503268        | 49.661560          |
+| 2026-04-01 | 46.437413        | 57.150939          |
+| 2026-05-01 | 47.752132        | 63.395280          |
+
+
 ### Comparación con datos reales 
 
+![Tabla real vs lstm y arima](img/r.jpg)
+![Tabla real vs lstm y arima](img/r1.jpg)
 
 ## Conclusión
 
-
+Se darán en la presentación.
 
 
 
